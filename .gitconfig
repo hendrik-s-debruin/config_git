@@ -1,0 +1,15 @@
+[user]
+	email = hendrik.s.debruin@gmail.com
+	name = Hendrik de Bruin
+[core]
+	excludesfile = ~/.gitignore_global
+[alias]
+	gr = log --oneline
+	grs = log --oneline --branches
+	grr = log --oneline --remotes
+	grsr = log --oneline --remotes --branches
+	d = difftool
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
