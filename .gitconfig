@@ -1,5 +1,5 @@
 [user]
-	email = hendrik.s.debruin@gmail.com
+	email = hendrik.debruin@iit.it
 	name = Hendrik de Bruin
 [core]
 	excludesfile = ~/.gitignore_global
