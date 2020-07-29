@@ -4,10 +4,10 @@
 [core]
 	excludesfile = ~/.gitignore_global
 [alias]
-	gr = log --oneline
-	grs = log --oneline --branches
-	grr = log --oneline --remotes
-	grsr = log --oneline --remotes --branches
+	gr = log --oneline --graph --decorate
+	grs = log --oneline --graph --decorate --branches
+	grr = log --oneline --graph --decorate --remotes
+	grsr = log --oneline --graph --decorate --branches --remotes
 	d = difftool
 [diff]
 	tool = vimdiff
