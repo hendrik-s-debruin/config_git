@@ -4,11 +4,23 @@
 [core]
 	excludesfile = ~/.gitignore_global
 [alias]
-	gr = log --oneline --graph --decorate
-	grs = log --oneline --graph --decorate --branches
-	grr = log --oneline --graph --decorate --remotes
+	gr   = log --oneline --graph --decorate
+	grs  = log --oneline --graph --decorate --branches
+	grr  = log --oneline --graph --decorate --remotes
 	grsr = log --oneline --graph --decorate --branches --remotes
-	d = difftool
+	d    = difftool
+	s    = status
+	p    = pull
+	f    = fetch
+	r    = rebase
+	c    = commit
+	ps   = push
+	sub  = submodule update --init --recursive
+	co   = checkout
+	cob  = checkout -b
+	b    = branch
+	wip  = commit -am "WIP commit"
+	undo = reset HEAD~1 --mixed
 [diff]
 	tool = vimdiff
 [difftool]
