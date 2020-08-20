@@ -10,20 +10,28 @@
 	grsr = log --oneline --graph --decorate --branches --remotes
 	d    = difftool
 	s    = status
-	p    = pull
+	pl   = pull
 	f    = fetch
 	r    = rebase
 	c    = commit
-	ps   = push
+	m    = merge
+	mt   = mergetool
+	p    = push
 	sub  = submodule update --init --recursive
 	co   = checkout
 	cob  = checkout -b
 	b    = branch
-	wip  = commit -am "WIP commit"
+	wip  = commit -m "WIP commit"
+	eod  = commit -m "EOD commit"
+	a    = add
 	undo = reset HEAD~1 --mixed
 [diff]
 	tool = vimdiff
 [difftool]
+	prompt = false
+[merge]
+	conflictstyle = diff3
+	tool = vimdiff
 	prompt = false
 [pull]
 	rebase = true
