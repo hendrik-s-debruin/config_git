@@ -12,6 +12,7 @@
 	s    = status
 	pl   = pull
 	f    = fetch
+	fa   = fetch --all
 	r    = rebase
 	c    = commit
 	m    = merge
