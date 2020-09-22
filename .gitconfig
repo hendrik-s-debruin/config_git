@@ -10,6 +10,10 @@
 	grsr = log --oneline --graph --decorate --branches --remotes
 	d    = difftool
 	s    = status
+	ss   = stash push --message
+	sp   = stash pop
+	sa   = stash apply
+	sl   = stash list
 	pl   = pull
 	f    = fetch
 	fa   = fetch --all
