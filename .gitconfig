@@ -11,6 +11,7 @@
 	d    = difftool
 	s    = status
 	ss   = stash push --message
+	su   = stash push --include-untracked --message
 	sp   = stash pop
 	sa   = stash apply
 	sl   = stash list
@@ -30,6 +31,8 @@
 	eod  = commit -m "EOD commit"
 	a    = add
 	undo = reset HEAD~1 --mixed
+	cli  = clean --dry-run
+	cl   = clean
 [diff]
 	tool = vimdiff
 [difftool]
