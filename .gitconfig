@@ -9,6 +9,8 @@
 	grr  = log --oneline --graph --decorate --remotes
 	grsr = log --oneline --graph --decorate --branches --remotes
 	d    = difftool
+	ds   = difftool --staged
+	dst  = difftool --stat
 	s    = status
 	ss   = stash push --message
 	su   = stash push --include-untracked --message
