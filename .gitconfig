@@ -32,6 +32,7 @@
 	wip  = commit -m "WIP commit"
 	eod  = commit -m "EOD commit"
 	a    = add
+	aa   = add --all
 	undo = reset HEAD~1 --mixed
 	cli  = clean --dry-run
 	cl   = clean

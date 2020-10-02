@@ -3,3 +3,4 @@
 *.swo
 compile_commands.json
 .clangd
+.cache/
