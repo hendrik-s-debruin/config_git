@@ -36,6 +36,7 @@
 	undo = reset HEAD~1 --mixed
 	cli  = clean --dry-run
 	cl   = clean
+	rem  = config --get remote.origin.url
 [diff]
 	tool = vimdiff
 [difftool]
