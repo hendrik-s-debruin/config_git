@@ -21,6 +21,8 @@
 	f    = fetch
 	fa   = fetch --all
 	r    = rebase
+	t    = tag
+	ta   = tag --annotate
 	c    = commit
 	m    = merge
 	mt   = mergetool
