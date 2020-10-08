@@ -24,6 +24,7 @@
 	t    = tag
 	ta   = tag --annotate
 	c    = commit
+	ca   = commit --amend
 	m    = merge
 	mt   = mergetool
 	p    = push
