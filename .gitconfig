@@ -11,6 +11,7 @@
 	d    = difftool
 	ds   = difftool --staged
 	dst  = difftool --stat
+	dlf  = diff --name-only
 	s    = status
 	ss   = stash push --message
 	su   = stash push --include-untracked --message
