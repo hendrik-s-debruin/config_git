@@ -9,6 +9,7 @@
 	grr  = log --oneline --graph --decorate --remotes
 	grsr = log --oneline --graph --decorate --branches --remotes
 	d    = difftool
+	dh   = difftool HEAD
 	ds   = difftool --staged
 	dst  = difftool --stat
 	dlf  = diff --name-only
