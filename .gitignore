@@ -1,6 +1,0 @@
-.tags
-*.swp
-*.swo
-# created by clangd
-.cache/
-compile_commands.json
