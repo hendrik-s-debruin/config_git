@@ -30,10 +30,12 @@
 	m    = merge
 	mt   = mergetool
 	p    = push
+	psu  = push --set-upstream
 	sub  = submodule update --init --recursive
 	co   = checkout
 	cob  = checkout -b
 	b    = branch
+	br   = branch --remotes
 	wip  = commit -m "WIP commit"
 	eod  = commit -m "EOD commit"
 	a    = add
