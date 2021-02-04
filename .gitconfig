@@ -8,6 +8,7 @@
 	grs  = log --oneline --graph --decorate --branches
 	grr  = log --oneline --graph --decorate --remotes
 	grsr = log --oneline --graph --decorate --branches --remotes
+	g    = log --oneline --graph --decorate --branches --remotes
 	d    = difftool
 	dh   = difftool HEAD
 	dh1  = difftool HEAD~1
