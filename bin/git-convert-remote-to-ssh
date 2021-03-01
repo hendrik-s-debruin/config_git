@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+old_remote=$(git remote get-url origin)
+echo "Old remote: $old_remote"
+
+new_remote=$(echo $old_remote | sed -r 's|https://([^/]+)/(.+)|git@\1:\2|' | head -n 1)
+echo "New remote: $new_remote"
+
+if [ -n "$new_remote" ]; then
+	git remote set-url origin "$new_remote"
+fi
