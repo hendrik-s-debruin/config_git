@@ -64,3 +64,5 @@
 	keepBackup = false
 [init]
 	defaultBranch = master
+[push]
+	default = current
