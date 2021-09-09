@@ -3,7 +3,9 @@
 	name = Hendrik de Bruin
 [core]
 	excludesfile = ~/.gitignore_global
+	pager=less
 [alias]
+	i       = init
 	gr      = log --oneline --graph --decorate
 	grs     = log --oneline --graph --decorate --branches
 	grr     = log --oneline --graph --decorate --remotes
@@ -43,8 +45,9 @@
 	a       = add
 	aa      = add --all
 	undo    = reset HEAD~1 --mixed
-	cli     = clean --dry-run
-	cl      = clean
+	cln     = clean --dry-run
+	clnn    = clean
+	cl      = clone --recurse-submodules
 	rem     = config --get remote.origin.url
 	tohttps = convert-remote-to-https
 	tossh   = convert-remote-to-ssh
@@ -54,8 +57,8 @@
 	prompt = false
 [merge]
 	conflictstyle = diff3
-	tool = vimdiff
-	prompt = false
+	tool          = vimdiff
+	prompt        = false
 [pull]
 	rebase = true
 [fetch]

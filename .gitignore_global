@@ -5,6 +5,9 @@ compile_commands.json
 .clangd
 .cache/
 build/
+build
+build_*/
 .vim/
 .tags.lock
 .ignore
+cmake-build*
