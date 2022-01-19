@@ -11,3 +11,4 @@ build_*/
 .ignore
 cmake-build*
 .vim/
+.env
