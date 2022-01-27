@@ -12,3 +12,4 @@ build_*/
 cmake-build*
 .vim/
 .env
+*egg-info/
