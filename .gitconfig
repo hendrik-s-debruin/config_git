@@ -42,6 +42,7 @@
 	cob     = checkout -b
 	b       = branch
 	br      = branch --remotes
+	bd      = branch --delete
 	wip     = commit -m "WIP commit"
 	eod     = commit -m "EOD commit"
 	a       = add
