@@ -36,6 +36,7 @@
 	mt      = mergetool
 	p       = push
 	pt      = push --tags
+	tp      = push --tags
 	psu     = push --set-upstream
 	sub     = submodule update --init --recursive
 	co      = checkout
@@ -54,6 +55,7 @@
 	rem     = config --get remote.origin.url
 	tohttps = convert-remote-to-https
 	tossh   = convert-remote-to-ssh
+	hash    = rev-parse HEAD
 [diff]
 	tool = vimdiff
 [difftool]
