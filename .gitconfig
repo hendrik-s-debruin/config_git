@@ -7,6 +7,7 @@
 	editor=vim
 [alias]
 	i       = init
+	l       = log --oneline --graph --decorate --first-parent --no-merges
 	gr      = log --oneline --graph --decorate
 	grs     = log --oneline --graph --decorate --branches
 	grr     = log --oneline --graph --decorate --remotes
