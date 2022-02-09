@@ -57,6 +57,7 @@
 	tohttps = convert-remote-to-https
 	tossh   = convert-remote-to-ssh
 	hash    = rev-parse HEAD
+	untrack = rm --cached
 [diff]
 	tool = vimdiff
 [difftool]
