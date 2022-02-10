@@ -13,6 +13,7 @@
 	grr     = log --oneline --graph --decorate --remotes
 	grsr    = log --oneline --graph --decorate --branches --remotes
 	g       = log --oneline --graph --decorate --branches --remotes
+	rc      = rebase --continue
 	d       = difftool
 	dh      = difftool HEAD
 	dh1     = difftool HEAD~1
