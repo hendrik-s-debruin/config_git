@@ -19,4 +19,4 @@ __py_chache__/
 *.bak
 *.old
 *.temp
-python_virtual_env
+.venv
