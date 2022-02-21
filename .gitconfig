@@ -59,6 +59,7 @@
 	tossh   = convert-remote-to-ssh
 	hash    = rev-parse HEAD
 	untrack = rm --cached
+	tl      = !git tag --list | sort --version-sort --reverse
 [diff]
 	tool = vimdiff
 [difftool]
