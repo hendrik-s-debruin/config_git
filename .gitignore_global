@@ -14,7 +14,7 @@ cmake-build*
 .vim/
 .env
 *egg-info/
-__py_chache__/
+__pycache__/
 *.tmp
 *.bak
 *.old
