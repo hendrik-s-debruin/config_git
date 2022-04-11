@@ -68,8 +68,10 @@
 	conflictstyle = diff3
 	tool          = vimdiff
 	prompt        = false
+	ff            = false
 [pull]
 	rebase = true
+	ff     = true
 [fetch]
 	prune = true
 [mergetool]
