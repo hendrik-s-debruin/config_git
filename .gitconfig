@@ -60,6 +60,7 @@
 	hash    = rev-parse HEAD
 	untrack = rm --cached
 	tl      = !git tag --list | sort --version-sort --reverse
+	root    = rev-parse --show-toplevel
 [diff]
 	tool = vimdiff
 [difftool]
