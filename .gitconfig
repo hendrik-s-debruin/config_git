@@ -61,6 +61,7 @@
 	untrack = rm --cached
 	tl      = !git tag --list | sort --version-sort --reverse
 	root    = rev-parse --show-toplevel
+	forget  = rm -r --cached
 [diff]
 	tool = vimdiff
 [difftool]
