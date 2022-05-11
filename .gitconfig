@@ -24,6 +24,7 @@
 	ss       = stash push --message
 	su       = stash push --include-untracked --message
 	sp       = stash pop
+	spi      = stash pop --index
 	sa       = stash apply
 	sl       = stash list
 	pl       = pull
@@ -64,6 +65,7 @@
 	forget   = rm -r --cached
 	fgt      = forget
 	conflict = merge --no-ff --no-commit
+	dr       = push --delete origin
 [diff]
 	tool = vimdiff
 [difftool]
