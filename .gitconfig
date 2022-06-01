@@ -66,6 +66,8 @@
 	fgt      = forget
 	conflict = merge --no-ff --no-commit
 	dr       = push --delete origin
+	rs       = rerere status
+	rd       = rerere diff
 [diff]
 	tool = vimdiff
 [difftool]
