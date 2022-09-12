@@ -33,8 +33,8 @@
 	r        = rebase
 	t        = tag
 	ta       = tag --annotate
-	c        = commit
-	ca       = commit --amend
+	c        = !vim -c Git commit
+	ca       = !vim -c \"Git commit --amend\"
 	m        = merge
 	mt       = mergetool
 	p        = push
