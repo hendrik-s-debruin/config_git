@@ -17,6 +17,7 @@
 	d        = difftool
 	dh       = difftool HEAD
 	dh1      = difftool HEAD~1
+	dl       = difftool HEAD@{1}
 	ds       = difftool --staged
 	dst      = difftool --stat
 	dlf      = diff --name-only
@@ -33,8 +34,10 @@
 	r        = rebase
 	t        = tag
 	ta       = tag --annotate
-	c        = !vim -c Git commit
-	ca       = !vim -c \"Git commit --amend\"
+	c        = commit
+	ca       = commit --amend
+	cc       = !vim -c Git commit
+	cca      = !vim -c \"Git commit --amend\"
 	m        = merge
 	mt       = mergetool
 	p        = push
@@ -44,6 +47,7 @@
 	sub      = submodule update --init --recursive
 	co       = checkout
 	cob      = checkout -b
+	col      = checkout HEAD@{1}
 	b        = branch
 	br       = branch --remotes
 	bd       = branch --delete
