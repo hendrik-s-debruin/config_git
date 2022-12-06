@@ -41,8 +41,11 @@
 	m        = merge
 	mt       = mergetool
 	p        = push
+	pu       = push upstream
 	pt       = push --tags
 	tp       = push --tags
+	ptu      = push --tags upstream
+	tpu      = push --tags upstream
 	psu      = push --set-upstream
 	sub      = submodule update --init --recursive
 	co       = checkout
@@ -60,6 +63,9 @@
 	clnn     = clean
 	cl       = clone --recurse-submodules
 	rem      = config --get remote.origin.url
+	remu     = config --get remote.origin.url
+	rema     = remote add origin
+	remau    = remote add upstream
 	tohttps  = convert-remote-to-https
 	tossh    = convert-remote-to-ssh
 	hash     = rev-parse HEAD
@@ -70,6 +76,7 @@
 	fgt      = forget
 	conflict = merge --no-ff --no-commit
 	dr       = push --delete origin
+	dru      = push --delete upstream
 	rs       = rerere status
 	rd       = rerere diff
 [diff]
