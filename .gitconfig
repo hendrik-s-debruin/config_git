@@ -45,6 +45,7 @@
 	m        = merge
 	mt       = mergetool
 	p        = push
+	po       = push origin
 	pu       = push upstream
 	pt       = push --tags
 	tp       = push --tags
