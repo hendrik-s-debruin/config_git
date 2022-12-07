@@ -11,7 +11,11 @@
 	gr       = log --oneline --graph --decorate
 	grs      = log --oneline --graph --decorate --branches
 	grr      = log --oneline --graph --decorate --remotes
+	grru     = log --oneline --graph --decorate --remotes=upstream
+	grro     = log --oneline --graph --decorate --remotes=origin
 	grsr     = log --oneline --graph --decorate --branches --remotes
+	grsru    = log --oneline --graph --decorate --branches --remotes=upstream
+	grsro    = log --oneline --graph --decorate --branches --remotes=origin
 	g        = log --oneline --graph --decorate --branches --remotes
 	rc       = rebase --continue
 	d        = difftool
