@@ -24,4 +24,4 @@ pyrightconfig.json
 typings
 *.o
 a.out
-silicon_*.png
+*.silicon.png
