@@ -1,3 +1,10 @@
 #! /usr/bin/env bash
 
-git cat-file -p $(git rev-parse $1)
+# sed deletes first few lines which contain the following:
+#
+# * tag commit hash
+# * 'type commit'
+# * tag name
+# * tagger details
+# * empty line
+git cat-file -p $(git rev-parse $1) | sed 1,5d
