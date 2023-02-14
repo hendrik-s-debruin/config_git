@@ -68,7 +68,7 @@
 	clnn     = clean
 	cl       = clone --recurse-submodules
 	rem      = config --get remote.origin.url
-	remu     = config --get remote.origin.url
+	remu     = config --get remote.upstream.url
 	rema     = remote add origin
 	remau    = remote add upstream
 	tohttps  = convert-remote-to-https
@@ -84,6 +84,7 @@
 	dru      = push --delete upstream
 	rs       = rerere status
 	rd       = rerere diff
+	st       = show-tag
 [diff]
 	tool = vimdiff
 [difftool]
