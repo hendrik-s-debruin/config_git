@@ -32,7 +32,7 @@
 	dru      = push --delete upstream
 	ds       = difftool --staged
 	dst      = difftool --stat
-	eod      = commit -m "EOD commit"
+	eod      = commit --no-verify -m \"EOD commit\"
 	fa       = fetch --all
 	f        = fetch
 	fgt      = forget
@@ -49,6 +49,7 @@
 	hash     = rev-parse HEAD
 	i        = init
 	l        = log --oneline --graph --decorate --first-parent --no-merges
+	mb       = merge-base --fork-point
 	m        = merge
 	mt       = mergetool
 	pl       = pull
@@ -82,6 +83,7 @@
 	tossh    = convert-remote-to-ssh
 	tp       = push --tags
 	tpu      = push --tags upstream
+	td       = tag --delete
 	t        = tag
 	undo     = reset HEAD~1 --mixed
 	untrack  = rm --cached
