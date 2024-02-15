@@ -1,0 +1,4 @@
+#!/bin/env bash
+
+git config --local core.sshCommand "/usr/bin/ssh -i $1"
+

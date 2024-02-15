@@ -12,6 +12,8 @@
 	bd       = branch --delete
 	br       = branch --remotes
 	ca       = commit --amend
+	cn       = commit --no-verify
+	can      = commit --amend --no-verify
 	cca      = !vim -c \"Git commit --amend\"
 	c        = commit
 	cc       = !vim -c Git commit
@@ -24,6 +26,8 @@
 	conflict = merge --no-ff --no-commit
 	cp       = cherry-pick
 	d        = difftool
+	do       = !git difftool origin/$(git rev-parse --abbrev-ref HEAD)
+	du       = !git difftool upstream/$(git rev-parse --abbrev-ref HEAD)
 	dh1      = difftool HEAD~1
 	dh       = difftool HEAD
 	dl       = difftool HEAD@{1}
@@ -88,6 +92,7 @@
 	undo     = reset HEAD~1 --mixed
 	untrack  = rm --cached
 	wip      = commit -m "WIP commit"
+
 [diff]
 	tool = vimdiff
 [difftool]
